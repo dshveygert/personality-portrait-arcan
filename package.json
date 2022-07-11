@@ -1,0 +1,38 @@
+{
+  "name": "personality-portrait-arcan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "personality-portrait-arcan",
+  "author": "dshveigert",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby develop --port 4000",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "gatsby": "^4.18.0",
+    "gatsby-plugin-google-analytics": "^4.18.0",
+    "gatsby-plugin-manifest": "^4.18.0",
+    "gatsby-plugin-material-ui": "^4.0.2",
+    "gatsby-plugin-react-helmet": "^5.18.0",
+    "gatsby-plugin-sass": "^5.18.0",
+    "gatsby-plugin-sitemap": "^5.18.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.53.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "typescript": "^4.7.4"
+  }
+}
