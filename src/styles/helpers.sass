@@ -1,0 +1,29 @@
+@mixin size($w, $h: nil)
+  width: $w
+  @if $h != nil
+    height: $h
+  @else
+    height: $w
+
+@mixin fsz($fontSize, $lineHeight: nil)
+  font-size: $fontSize
+  @if $lineHeight != nil
+    line-height: $lineHeight
+
+@mixin textOverflow
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+$smartphoneWidth: 640px
+
+@mixin forSmartphone
+  @media only screen and (max-width: $smartphoneWidth)
+    @content
+
+$G9: #004D40
+$G8: #00695C
+$G7: #00796B
+$G2: #80CBC4
+$G1: #B2DFDB
+$G0: #E0F2F1

@@ -1,0 +1,53 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+@import "src/styles/helpers"
+
+html
+  font-size: 14px
+  line-height: 1.2
+  font-family: Roboto, Helvetica Neue, sans-serif
+
+.main
+  width: 100%
+  padding-top: 32px
+button
+  display: block
+  margin: 0 auto
+  font-size: 1.5rem
+  text-transform: uppercase
+  padding: 12px 24px
+  border: 2px solid $G8
+  border-radius: 12px
+  color: #fff
+  background-color: $G2
+  cursor: pointer
+  &:hover
+    box-shadow: 0 0 20px -5px rgba(0,105,92,0.9)
+  &:disabled
+    border-color: $G1
+    background-color: $G0
+    color: $G2
+    cursor: auto
+    box-shadow: none
+input
+  outline: none !important
+  background-color: $G0
+  &::-webkit-input-placeholder
+    color: $G2
+    font-weight: 400
+    font-size: 1.5rem
+    text-transform: uppercase
+  &::-moz-placeholder
+    color: $G2
+    font-weight: 400
+    font-size: 1.5rem
+    text-transform: uppercase
+  &:-ms-input-placeholder
+    color: $G2
+    font-weight: 400
+    font-size: 1.5rem
+    text-transform: uppercase
+  &:-moz-placeholder
+    color: $G2
+    font-weight: 400
+    font-size: 1.5rem
+    text-transform: uppercase
